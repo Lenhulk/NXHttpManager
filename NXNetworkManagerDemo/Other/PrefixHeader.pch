@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  NXNetworkManagerDemo
+//
+//  Created by Design on 2018/11/7.
+//  Copyright © 2018年 Design. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppsCommonConfig.h"
+#import "AppsCommonConfig.h"
+#import "NXNetworking.h"
+
+
+// 业务相关
+//打包前设置环境
+//#define USING_DOMAIN_MODE @"test"
+//#define USING_DOMAIN_MODE @"preProduct"
+#define USING_DOMAIN_MODE @"product"
+
+// 域名相关配置
+#define Brand @"aaa"
+#define DefaultDomain @"https://ios.xxxx.cn"
+#define DomainUrl @"https://xxxx/xxx/xx.txt"
+#define BackupDomainUrl @"https://xxxx/xxx/xxbackup.txt"
+#define BackupDomainPoolUrl  @"https://xxxx/xxx/xx/raw/master/ios_dmpool"
+#define DEFAULT_M_WEBSIDE @"https://m.xxxx.com"
+//#define DefaultBifenUrl @"http://mlive.huancai8.net/live"
+
+
+
+#endif /* PrefixHeader_pch */
